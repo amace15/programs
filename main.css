@@ -1,0 +1,148 @@
+body {
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    margin-left:260px;
+    margin-top: 250px;
+    width:60%;
+    float: left;
+    padding: 10px;
+}
+
+header img {
+	max-height: 240px;
+	width: 98%;
+	position: absolute;
+	top:10px;
+	left:10px;
+}
+
+nav {
+    border: 5px black solid;
+	background:green;
+    margin-left:10px;
+    width:200px;
+    position:absolute;
+    top:250px;
+    left:10px;
+    min-width: 40px;
+    float: left;
+    padding: 20px;
+    opacity: 1;
+}
+
+nav li {
+	list-style-type:none;
+    margin: 0px 10px;
+	padding:10px;
+}
+
+nav a {
+	text-align: left;
+    padding: 5px;
+	padding-bottom: 3px;
+	font-size: 1.1em;
+    color: white;
+}
+
+nav a:hover {
+        background: black;
+        color: green;
+}
+
+section {
+    margin-left: 270px;
+	max-height:600px;
+    width: 60%;
+    padding: 10px;
+    float: left;
+	opacity: 0.7;
+	font-size:110%;
+}
+
+table {
+	width:70%;
+	margin:10px auto;
+	border-collapse:collapse;
+	color: white;
+}
+
+#helpful {
+	margin-bottom:110px;
+}
+
+#contact {
+	margin-bottom:200px;
+}
+#calendar {
+	margin-bottom:10px;
+}
+
+#newsletter {
+	margin-left:400px;
+	margin-bottom:150px;
+}
+
+td 	{
+	width:25%;
+	border:2px #009900 solid;
+	text-align:left;
+	font-size:200%;
+}
+
+th {
+	font-weight:bold;
+	color:black;
+	font-size:150%;
+	border:2px #009900 solid;
+	text-align:center;
+}
+
+table a {
+	border-collapse:collapse;
+	color: black;
+}
+
+table a:hover {
+	color:green;
+	font-style:italic;
+}
+
+p {
+    text-indent: 50px;
+}
+
+#greeting {
+	text-indent:0px;
+}
+
+.salutations {
+	text-indent:600px;
+}
+
+footer {
+    margin-top: 10px;
+    width: 90%;
+    float: left;
+    padding: 10px;
+
+}
+
+#credits {
+    background: green;
+    color: white;
+    padding: 3px;
+}
+
+.body {
+	margin-left: 300px;
+	width: 70%;
+}
+
+.mission {
+	overflow:scroll;
+}
+
+.about {
+	overflow:scroll;
+}
